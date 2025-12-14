@@ -1,6 +1,6 @@
 """
 Actividad 3 - Metodos de aprendizaje supervisado
-Contexto: Transporte masivo (relacionado con actividades previas de busqueda/rutas)
+Contexto: Transporte masivo
 
 Objetivo del componente:
 - Construir un modelo supervisado (regresion) que aprenda a predecir el tiempo de viaje (tiempo_min)
