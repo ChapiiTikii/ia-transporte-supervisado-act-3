@@ -7,10 +7,6 @@ __pycache__/
 # venv
 .venv/
 
-# data/outputs (si quieres no versionar)
-*.png
-*.csv
-
 # OS/IDE
 .DS_Store
 .vscode/

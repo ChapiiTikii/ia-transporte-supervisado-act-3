@@ -57,7 +57,13 @@ def entrenar_modelo(df):
         X, y, test_size=0.3, random_state=123
     )
 
-    modelo = DecisionTreeRegressor(max_depth=5, random_state=123)
+    modelo = DecisionTreeRegressor(
+      max_depth=3,
+      min_samples_leaf=20,
+      min_samples_split=40,
+      random_state=123
+    )
+
     modelo.fit(X_train, y_train)
 
     preds = modelo.predict(X_test)
